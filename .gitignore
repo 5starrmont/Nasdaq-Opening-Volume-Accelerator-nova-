@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets — NEVER commit these
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files — too large for git
+data/raw/
+data/cache/
+*.csv
+*.parquet
+*.h5
+
+# Logs
+logs/
+*.log
+
+# PDFs and notes
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
